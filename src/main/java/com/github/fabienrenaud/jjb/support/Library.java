@@ -28,7 +28,7 @@ public enum Library {
     JODD,
     MOSHI,
     TAPESTRY,
-    JSONITER,
+    //JSONITER,
     MINIMALJSON,
     MJSON,
     UNDERSCORE_JAVA,

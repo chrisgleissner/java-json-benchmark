@@ -18,10 +18,10 @@ repositories {
 }
 
 ext {
-    jacksonVersion = '2.9.5'
+    jacksonVersion = '2.10.1'
     dslJsonVersion = '1.7.3'
     johnzonVersion = '1.1.7'
-    jmhVersion = '1.20'
+    jmhVersion = '1.22'
 }
 
 dependencies {
@@ -43,7 +43,7 @@ dependencies {
     compile group: 'org.glassfish', name: 'javax.json', version: '1.1.2'
     // JSONB
     compile group: 'javax.json.bind', name: 'javax.json.bind-api', version: '1.0'
-    compile group: 'org.eclipse', name: 'yasson', version: '1.0.1'
+    compile group: 'org.eclipse', name: 'yasson', version: '1.0.5'
     // GENSON
     compile group: 'com.owlike', name: 'genson', version: '1.4'
     // FlexJson

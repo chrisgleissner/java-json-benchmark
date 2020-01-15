@@ -111,10 +111,4 @@ public class Deserialization extends JsonBench {
         return JSON_SOURCE().provider().moshi().fromJson(JSON_SOURCE().nextOkioBufferedSource());
     }
 
-    @Benchmark
-    @Override
-    public Object jsoniter() throws Exception {
-        return com.jsoniter.JsonIterator.deserialize(JSON_SOURCE().nextByteArray(), JSON_SOURCE().pojoType());
-    }
-
 }

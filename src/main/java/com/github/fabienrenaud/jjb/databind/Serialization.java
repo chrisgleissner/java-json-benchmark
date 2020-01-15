@@ -138,12 +138,5 @@ public class Serialization extends JsonBench {
         return baos;
     }
 
-    @Benchmark
-    @Override
-    public Object jsoniter() throws Exception {
-        ByteArrayOutputStream baos = JsonUtils.byteArrayOutputStream();
-        com.jsoniter.output.JsonStream.serialize(JSON_SOURCE().nextPojo(), baos);
-        return baos;
-    }
 
 }
