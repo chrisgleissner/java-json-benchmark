@@ -20,7 +20,7 @@ The project is a fork of https://github.com/fabienrenaud/java-json-benchmark wit
 
 The benchmarks are written with [JMH](http://openjdk.java.net/projects/code-tools/jmh/) and for Java 11.
 
-The results here-below were computed on 15 January 2020 with the following libraries and versions, using Amazon Coretto JDK 11.0.5 on a Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz and a 2GB heap.
+The results here-below were computed on 15 January 2020 with the following libraries and versions, using Amazon Corretto JDK 11.0.5 on a Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz and a 2GB heap.
 
 Framworks tested:
 
